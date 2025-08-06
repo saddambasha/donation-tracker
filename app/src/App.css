@@ -1,0 +1,58 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 14px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.settle {
+  background: #ffc107;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.donation-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.donation-list li {
+  background: #fff;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border-left: 5px solid #007bff;
+}
