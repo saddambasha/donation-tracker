@@ -111,7 +111,7 @@ function App() {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
-        <button onClick={handleAddDonation}>Add Donation</button>
+        <button onClick={handleAddDonation}>Add Contributation</button>
       </div>
 
       <div className="summary">
