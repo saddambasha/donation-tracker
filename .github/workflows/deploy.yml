@@ -3,17 +3,18 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change if your default branch is different
+      - main  # Change if needed
 
 permissions:
-  contents: write  # Needed to push to gh-pages branch
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     defaults:
       run:
-        working-directory: app
+        working-directory: app  # Run all commands inside "app" folder
 
     steps:
       - name: Checkout repository
@@ -30,5 +31,12 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "saddambasha"
+          git config --global user.email "saddamb6622@gmail.com"
+
       - name: Deploy to GitHub Pages
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run deploy
