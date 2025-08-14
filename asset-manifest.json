@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/donation-tracker/static/css/main.d0de6e95.css",
-    "main.js": "/donation-tracker/static/js/main.27dfd697.js",
+    "main.js": "/donation-tracker/static/js/main.439d95a5.js",
     "static/js/453.96453769.chunk.js": "/donation-tracker/static/js/453.96453769.chunk.js",
     "index.html": "/donation-tracker/index.html",
     "main.d0de6e95.css.map": "/donation-tracker/static/css/main.d0de6e95.css.map",
-    "main.27dfd697.js.map": "/donation-tracker/static/js/main.27dfd697.js.map",
+    "main.439d95a5.js.map": "/donation-tracker/static/js/main.439d95a5.js.map",
     "453.96453769.chunk.js.map": "/donation-tracker/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0de6e95.css",
-    "static/js/main.27dfd697.js"
+    "static/js/main.439d95a5.js"
   ]
 }
