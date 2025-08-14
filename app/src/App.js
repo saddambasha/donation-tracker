@@ -96,7 +96,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Krishana Puram Team 💰</h1>
+      <h1>KrishnaPuram Team 💰</h1>
 
       <div className="form">
         <input
@@ -111,7 +111,7 @@ function App() {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
-        <button onClick={handleAddDonation}>Add Contributation</button>
+        <button onClick={handleAddDonation}>Add Contribution</button>
       </div>
 
       <div className="summary">
